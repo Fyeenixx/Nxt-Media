@@ -84,7 +84,7 @@
           'Plan:  '  + planLabel + '\n' +
           'Source: ' + (data.get('source') || form.id || 'unknown')
         );
-        window.location.href = 'mailto:Fenixleland@icloud.com?subject=' + subject + '&body=' + body;
+        window.location.href = 'mailto:business.nxt.media@gmail.com?subject=' + subject + '&body=' + body;
         setTimeout(() => {
           window.open('https://calendly.com/business-nxt-media/new-meeting', '_blank', 'noopener');
         }, 600);
